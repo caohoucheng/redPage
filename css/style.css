@@ -1,0 +1,56 @@
+	/*rain*/
+	.rainBg {
+		position: relative;
+		background-position: center;
+		width: 100%;
+		height: 100%;
+		overflow-y: hidden;
+		background: url(../image/rainBj.jpg) no-repeat top left;
+		background-size: 100% 100%;
+	}
+	
+	.couten {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		overflow-y: hidden;
+	}
+	
+	.couten li {
+		position: absolute;
+		animation: all 3s linear;
+		top: -100px;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	}
+	
+	.couten li a {
+		display: block;
+	}
+	
+	.rainKbNum {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		color: #fff;
+		font-size: 14px;
+		background-image: url(../image/rainKbNum.png);
+		background-size: 100% 100%;
+	}
+	.countDown{
+		position: absolute;
+		top: 4%;
+		width: 175px;
+		left: 50%;
+		margin-left: -87.5px;
+		height: 45px;
+		line-height: 45px;
+		text-align: center;
+		color: #fff;
+		font-size: 14px;
+		background-image: url(../image/countDown.png);
+		background-size: 100% 100%;
+	}
